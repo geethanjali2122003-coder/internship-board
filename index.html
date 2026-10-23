@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Internship Board</h1>
+    <p>Find an internship that fits your skills.</p>
+  </header>
+
+  <main>
+    <section class="filters" aria-label="Filters">
+      <div class="field">
+        <label for="search">Search</label>
+        <input type="search" id="search" placeholder="Title or skill, e.g. SQL">
+      </div>
+
+      <div class="field">
+        <label for="domain">Domain</label>
+        <select id="domain">
+          <option value="all">All domains</option>
+        </select>
+      </div>
+    </section>
+
+    <p id="status" role="status" aria-live="polite"></p>
+
+    <section id="cards" class="cards" aria-label="Internship listings"></section>
+  </main>
+
+  <footer>
+    <p>Fictional data for practice.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
