@@ -11,7 +11,8 @@ An accessible internship listing page built with HTML, CSS and JavaScript (no fr
 - Responsive layout for mobile, tablet and desktop
 
 ## Live Preview
-https://YOUR-USERNAME.github.io/internship-board/
+https://geethanjali2122003-coder.github.io/internship-board/
+
 
 ## Screenshots
 
